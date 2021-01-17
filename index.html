@@ -1,0 +1,118 @@
+
+<!-- Was Not Able to deploy on firebase actually i coruppted the whole file just before deploying had to 
+write the html all over again -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <h3>All Fields With * are Required</h3>
+<div id="form">
+
+    <!-- Input for User Name -->
+
+    <h4>* UserName :</h4>
+    <div class="input">
+    <input type="text" name="" id="username" class="Input" placeholder="Enter User Name">
+    <p id="USERNAME" style="color: red;"></p>
+</div>
+
+<!-- Input for password -->
+
+<h4>* Password :</h4>
+<div class="input">
+    <input type="password" name="" id="password" class="Input" placeholder="Enter your Password">
+    <p id="PASS" style="color: red;"></p>
+</div>
+
+<!-- Input Name -->
+
+<h4>* Name :</h4>
+<div class="input">
+    <input type="text" name="" id="name" class="Input" placeholder="Enter Your Name">
+    <p id="NAME" style="color: red;"></p>
+</div>
+
+<!-- Input Address -->
+
+<h4> Address :</h4>
+<div class="input">
+    <input type="text" name="" id="" class="Input" placeholder="Enter Your Address">
+    <!-- <p id="PASS" style="color: red;"></p> -->
+</div>
+
+<!-- Input for Country -->
+
+<h4>* Country</h4>
+<div class="input"><select class="Input" name="" id="country">
+    <option class="Country" value="" selected>(Select Your Country)</option>
+    <option class="Country" value="Pakistan">Pakistan</option>
+    <option class="Country" value="India">India</option>
+    <option class="Country" value="USA">USA</option>
+    <option class="Country" value="Canada">Canada</option>
+    <option class="Country" value="England">England</option>
+    <option class="Country" value="Turkey">Turkey</option>
+    <option class="Country" value="Maldives">Maldives</option>
+    <option class="Country" value="Srilanka">Srilanka</option>
+</select>
+ <p id="COUNTRY" style="color: red;"></p>
+</div>
+
+<!-- Input for Zip Code -->
+
+<h4>* Zip code :</h4>
+<div class="input">
+    <input type="text" name="" id="zipcode" class="Input" placeholder="Enter Zip Code">
+    <p id="ZIPCODE" style="color: red;"></p>
+</div>
+
+<!-- Input for Email -->
+
+<h4>* Email :</h4>
+<div class="input">
+    <input type="email" name="" id="email" class="Input" placeholder="Enter Your E-mail">
+    <p id="EMAIL" style="color: red;"></p>
+</div>
+
+<!-- Input for Gender -->
+
+<h4>* Sex :</h4>
+<div class="input">
+    <input type="radio" name="gender" id="male"  value="male" required> Male
+    <input type="radio" name="gender" id="female"  value="female" required> Female
+    <input type="radio" name="gender" id="other"  value="other" required> Other
+    <p id="ZIPCODE" style="color: red;"></p>
+</div>
+
+<!-- Input for Language -->
+
+<h4>* Language :</h4>
+ 
+<div class="input">
+    <input type="checkbox" name="" id="male"  value="english" required> English
+    <input type="checkbox" name="" id="female"  value="nonenglish" required> Non-English
+    
+    <p id="ZIPCODE" style="color: red;"></p>
+</div>
+
+<!-- Input for About -->
+<h4>About :</h4>
+<div class="input">
+<textarea name="" id="" cols="100" rows="10">About Your Self</textarea>
+</div>
+
+
+</div>
+
+
+<input type="submit" name="" id="submit" onclick="submitHandler()">
+    <script src="./script/script.js"></script>
+</body>
+</html>

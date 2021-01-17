@@ -1,0 +1,30 @@
+h1,h3{
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px
+}
+.input{
+    display: flex;
+   justify-content: center;
+}
+.Input{
+    width:800px;
+    text-align: center;
+}
+#submit:hover{
+    background-color:blue;
+    color: black;
+    width: 100px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+h4{
+    background-color:skyblue;
+    width:15%;
+    border-radius: 10PX;
+}
+#submit{
+    float:right;
+    width: 80px;
+    
+}
